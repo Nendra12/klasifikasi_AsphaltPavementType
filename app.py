@@ -16,7 +16,7 @@ st.write("Upload file CSV")
 
 @st.cache_resource
 def load_model():
-    return joblib.load("model/svm_rbf.pkl")
+    return joblib.load("Model/svm_rbf.pkl")
 
 model = load_model()
 
